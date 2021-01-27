@@ -1,6 +1,6 @@
-import { TaskStatus } from '../tasks/task.model';
+import { TaskStatus } from 'src/tasks/task.model';
 
-export class GetTaskFilterDto {
+export class GetTasksFilterDto {
   status: TaskStatus;
   search: string;
 }
